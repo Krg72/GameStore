@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GameStore</string>
+    <string name="Email">Email</string>
+    <string name="Tnc">TnC</string>
+    <string name="default_web_client_id">340828640440-b2cftn9j63su9df87vevnt1olfi9g97u.apps.googleusercontent.com</string>
+    <string name="Lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/playreg"
+        android:orientation="vertical">
+
+        <!-- Add RadioButton elements for each tag -->
+
+        <RadioButton
+            android:id="@+id/radioButtonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Action" />
+        <RadioButton
+            android:id="@+id/radioButtonAdventure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Adventure" />
+        <RadioButton
+            android:id="@+id/radioButtonArcade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Arcade" />
+        <RadioButton
+            android:id="@+id/radioButtonCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Card" />
+        <RadioButton
+            android:id="@+id/radioButtonCasual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Casual" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPuzzle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Puzzle" />
+        <RadioButton
+            android:id="@+id/radioButtonRacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Racing" />
+        <RadioButton
+        android:id="@+id/radioButtonRolePlaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+        android:text="Role Playing" />
+        <RadioButton
+        android:id="@+id/radioButtonSimulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+        android:text="Simulation" />
+        <RadioButton
+            android:id="@+id/radioButtonSports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Sports" />
+        <RadioButton
+            android:id="@+id/radioButtonStrategy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Strategy" />
+        <RadioButton
+            android:id="@+id/radioButtonTrivia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Trivia" />
+        <RadioButton
+            android:id="@+id/radioButtoWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:text="Word" />
+        <!-- Add more RadioButton elements for other tags -->
+
+    </RadioGroup>
+
+    <!-- Add Apply button -->
+    <Button
+        android:id="@+id/btnApplyFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/playreg"
+        android:text="Apply Filter" />
+
+</LinearLayout>

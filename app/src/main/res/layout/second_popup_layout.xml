@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:padding="16dp">
+
+    <!-- Question 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose from below options:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/playreg"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/playreg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonOption1Question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a. Angry Birds"
+            android:fontFamily="@font/playreg"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonOption2Question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/playreg"
+            android:text="b. Candy Crush"/>
+    </RadioGroup>
+
+    <!-- Question 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose from below options:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/playreg"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonOption1Question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/playreg"
+            android:text="a. Subway Surfers"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonOption2Question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/playreg"
+            android:text="b. Fruit Ninja"/>
+    </RadioGroup>
+
+    <!-- Question 3 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose from below options:"
+        android:fontFamily="@font/playreg"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQuestion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonOption1Question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/playreg"
+            android:text="a. PUBG"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonOption2Question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/playreg"
+            android:text="b. GTA"/>
+    </RadioGroup>
+</LinearLayout>

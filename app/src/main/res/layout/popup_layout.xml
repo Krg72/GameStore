@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/tagListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="multipleChoice"
+        android:background="#282828"
+        android:fontFamily="@font/playreg"
+        />
+
+
+    <!--<CheckBox
+        android:id="@+id/checkBoxCasual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casual"
+        android:textColor="@color/white"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxPuzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puzzle"
+        android:textColor="@color/white"/>-->
+
+</LinearLayout>

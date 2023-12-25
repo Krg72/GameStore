@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "340828640440",
+    "firebase_url": "https://gamestore-a766d-default-rtdb.firebaseio.com",
+    "project_id": "gamestore-a766d",
+    "storage_bucket": "gamestore-a766d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340828640440:android:9ba5f10c05e3bb3cb8504d",
+        "android_client_info": {
+          "package_name": "com.krg.gamestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340828640440-b2cftn9j63su9df87vevnt1olfi9g97u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krg.gamestore",
+            "certificate_hash": "741e6b8706bebc4fba2913722e87eb1be4e13f1f"
+          }
+        },
+        {
+          "client_id": "340828640440-i9uq9nv0kfopea1a07um87bblqurat60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkC6cliI-h1OXERc6uO6O7qAQ2oqR-EMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340828640440-i9uq9nv0kfopea1a07um87bblqurat60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

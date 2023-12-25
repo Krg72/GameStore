@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/playreg"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/radioButtonDownloads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:textColor="@color/white"
+            android:text="Downloads" />
+        <RadioButton
+            android:id="@+id/radioButtonRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:textColor="@color/white"
+            android:text="Rating" />
+        <RadioButton
+            android:id="@+id/radioButtonRelase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:textColor="@color/white"
+            android:text="Release" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTop50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:textColor="@color/white"
+            android:text="Top 50" />
+
+        <RadioButton
+            android:id="@+id/radioButton100M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playreg"
+            android:textColor="@color/white"
+            android:text="100M+ Downloads" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnApplyFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/playreg"
+        android:text="Apply Sort" />
+
+
+</LinearLayout>
